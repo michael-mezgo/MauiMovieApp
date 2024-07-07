@@ -14,7 +14,6 @@ public partial class MainPage
         stackLayout.Children.Add(new Image
         {
             Source = "popcorn.jpg",
-            HeightRequest = 100,
             Aspect = Aspect.AspectFit,
         });
         
@@ -32,8 +31,7 @@ public partial class MainPage
                     {
                         new Image {
                             Source = "movie_image.png",
-                            HeightRequest = 100,
-                            Aspect = Aspect.AspectFill
+                            Aspect = Aspect.AspectFit
                             },
                         new Label
                         {
